@@ -21,7 +21,7 @@ function highlightActor(actor){
 
     for(const mySpan of spans){
         if(actor == mySpan.dataset.actor){//current actor,highlight
-            mySpan.style.backgroundColor='yelow';
+            mySpan.style.backgroundColor='yellow';
         }else{//other actor, background white
             mySpan.style.backgroundColor='white';
         }
@@ -33,10 +33,10 @@ function highlightActor(actor){
 
 function highlight(el){
 
-    if(el.style.backgroundColor == 'yelow'){
+    if(el.style.backgroundColor == 'yellow'){
         el.style.backgroundColor='white';
     }else{
-        el.style.backgroundColor='yelow';
+        el.style.backgroundColor='yellow';
     }
 
 }
